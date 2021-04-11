@@ -25,7 +25,7 @@ export class ActionSheetPage implements OnInit {
         text: 'Eliminar',
         role: 'destructive',
         icon: 'trash-outline',
-        cssClass:'rojo',
+        cssClass: 'rojo',
         handler: () => {
           console.log('Delete clicked');
         }
