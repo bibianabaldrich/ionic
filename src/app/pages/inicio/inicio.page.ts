@@ -28,6 +28,11 @@ export class InicioPage implements OnInit {
       icon: 'beaker-outline',
       name: 'Avatar',
       redirectTo: '/avatar'
+    },
+    {
+      icon: 'extension-puzzle-outline',
+      name: 'Button',
+      redirectTo: '/button'
     }
   ];
   constructor() { }
