@@ -33,7 +33,17 @@ export class InicioPage implements OnInit {
       icon: 'extension-puzzle-outline',
       name: 'Button',
       redirectTo: '/button'
-    }
+    },
+    {
+      icon: 'card-outline',
+      name: 'Cards',
+      redirectTo: '/card'
+    },
+  {
+    icon: 'checkmark-circle',
+    name: 'Check box',
+    redirectTo: '/check-box'
+  }
   ];
   constructor() { }
 
